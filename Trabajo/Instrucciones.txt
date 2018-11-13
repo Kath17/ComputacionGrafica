@@ -1,0 +1,24 @@
+Para correr:
+ g++ poligonos.cpp -o poligonos -lglut -lGLU -lGL
+
+Para usar:
+- Poligonos irregulares: 
+  1) Click izquierdo para poner vertices
+  2) Click derecho para cerrar poligono
+  3) Cualquier tecla para rellenar
+  4) Disponibles las siguientes teclas:
+     - A -> Mover hacia la izquierda
+     - D -> Mover hacia la derecha
+     - S -> Mover hacia abajo
+     - W -> Mover hacia arriba
+     - Z y X-> Rotación 
+     - Q -> Hacer más pequeño
+     - E -> Hacer más grande
+
+- Poligonos regulares:
+  1) Click medio del mouse
+  2) Ingresar numero de lados en terminal, luego Enter
+  3) Cualquier tecla para rellenar
+  4) Usar las mismas teclas de los poligonos irregulares
+     para hacer traslación y rotación.
+  
